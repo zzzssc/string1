@@ -1,5 +1,4 @@
 int lpin = 13;
-int i;
 int j;
 char a[50] = {'H','E','L','L','O'};
 
@@ -13,23 +12,111 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 
-for(j=0;a[j]!="\n";i++)
+for(j=0;a[j]!='\n';j++)
 {
-  if(a[j]=='H')
+  if(a[j] == 'A' || a[j] == 'a')
   {
-    H();
+    A();
   }
-  else if(a[j] == 'E')
+  else if(a[j] == 'B' ||a[j] == 'b')
+  {
+    B();
+  }
+  else if(a[j] == 'C' || a[j] == 'c')
+  {
+    C();
+  }
+  else if(a[j] == 'D' || a[j] == 'd')
+  {
+    D();
+  }
+  else if(a[j] == 'E' || a[j] == 'e')
   {
     E();
   }
-  else if(a[j] == 'L')
+  else if(a[j] == 'F' || a[j] =='f')
+  {
+    f();
+  }
+  else if(a[j] == 'G' || a[j] == 'g')
+  {
+    G();
+  }
+  else if(a[j] == 'H' || a[j] == 'h')
+  {
+    H();
+  }
+  else if(a[j] == 'I' || a[j] == 'i')
+  {
+    I();
+  }
+  else if(a[j] == 'J' || a[j] == 'j')
+  {
+    J();
+  }
+  else if(a[j] == 'K' || a[j] == 'k')
+  {
+    K();
+  }
+  else if(a[j] == 'L' || a[j] == 'l')
   {
     L();
   }
-  else if(a[j]=='O')
+  else if(a[j] == 'M' || a[j] == 'm')
+  {
+    M();
+  }
+  else if(a[j] == 'N' || a[j] == 'n')
+  {
+    N();
+  }
+  else if(a[j] == 'O' || a[j] == 'o')
   {
     O();
+  }
+  else if(a[j] == 'P' || a[j] == 'p')
+  {
+    P();
+  }
+  else if(a[j] == 'Q' || a[j] == 'q')
+  {
+    Q();
+  }
+  else if(a[j] == 'R' || a[j] == 'r')
+  {
+    R();
+  }
+  else if(a[j] == 'S' || a[j] == 's')
+  {
+    S();
+  }
+  else if(a[j] == 'T' || a[j] == 't')
+  {
+    T();
+  }
+  else if(a[j] == 'U' || a[j] == 'u')
+  {
+    U();
+  }
+  else if(a[j] == 'V' || a[j] == 'v')
+  {
+    V();
+  }
+  else if(a[j] == 'W' || a[j] == 'w')
+  {
+    W();
+  }
+  else if(a[j] == 'X' || a[j] == 'x')
+  {
+    X();
+  }
+  else if(a[j] == 'Y' || a[j] == 'y')
+  {
+    Y();
+  }
+  else if(a[j] == 'Z' || a[j] == 'z')
+  {
+    Z();
   }
 }
 
@@ -51,7 +138,7 @@ void shorttime()
  }
 void A()
 {
-  
+  int i;
   for(i=0;i<2;i++)
   {
     if(i==0)
@@ -66,6 +153,7 @@ void A()
 }
 void B()
 {
+  int i;
    for(i=0;i<4;i++)
    {
     if(i==0)
@@ -80,6 +168,7 @@ void B()
 }
 void C()
 {
+  int i;
    for(i=0;i<4;i++)
    {
     if(i==0||i==2)
@@ -94,6 +183,7 @@ void C()
 }
 void D()
 {
+  int i;
    for(i=0;i<3;i++)
    {
      if(i==0)
@@ -108,6 +198,7 @@ void D()
 }
  void E()
  {
+  int i;
   for(i=0;i<1;i++)
   {
     shorttime();
@@ -115,6 +206,7 @@ void D()
  }
  void f()
  {  
+  int i;
 //  F的摩斯密码
   for(i=0;i<4;i++)
   {
@@ -130,6 +222,7 @@ void D()
  }
  void  G()
  {
+  int i;
     //  G的摩斯密码
   for(i=0;i<3;i++)
   {
@@ -145,6 +238,7 @@ void D()
  }
 void H()
 {
+  int i;
   for(i=0;i<4;i++)
   {
   shorttime();
@@ -152,6 +246,7 @@ void H()
 }
 void I()
  {
+  int i;
   //I的摩斯密码
   for(i=0;i<2;i++)
   {
@@ -160,6 +255,7 @@ void I()
  }
 void J()
 {
+  int i;
    //J的摩斯密码
 for(i=0;i<4;i++)
 {
@@ -175,6 +271,7 @@ for(i=0;i<4;i++)
 }
 void K()
 {
+  int i;
   // k的摩斯密码
   for(i=0;i<3;i++)
   {
@@ -190,6 +287,7 @@ void K()
 }
 void L()
 {
+  int i;
   //  L的摩斯密码
   for(i=0;i<4;i++)
   {
@@ -205,6 +303,7 @@ void L()
 }
 void M()
 {
+  int i;
   //  m的摩斯密码
  for(i=0;i<2;i++)
  {
@@ -213,6 +312,7 @@ void M()
 }
 void N()
 {
+  int i;
   //n的摩斯密码
  for(i=0;i<2;i++)
  {
@@ -228,6 +328,7 @@ void N()
 }
  void O()
  {
+  int i;
   //  O的摩斯密码
   for(i=0;i<3;i++)
   {
@@ -236,6 +337,7 @@ void N()
  }
  void P()
  {
+  int i;
   //  P的摩斯密码
 for(i=0;i<4;i++)
 {
@@ -251,6 +353,7 @@ for(i=0;i<4;i++)
  }
  void Q()
  {
+  int i;
 //Q的摩斯密码
 for(i=0;i<4;i++)
 {
@@ -266,6 +369,7 @@ for(i=0;i<4;i++)
  }
  void R()
  {
+  int i;
   //R的摩斯密码
 for(i=0;i<3;i++)
 {
@@ -281,6 +385,7 @@ for(i=0;i<3;i++)
  }
  void S()
  {
+  int i;
   //S的摩斯密码
 for(i=0;i<3;i++)
 {
@@ -289,6 +394,7 @@ for(i=0;i<3;i++)
  }
  void T()
  {
+  int i;
   //T的摩斯密码
 for(i=0;i<1;i++)
 {
@@ -297,6 +403,7 @@ for(i=0;i<1;i++)
  }
  void U()
  {
+  int i;
   //U的摩斯密码
 for(i=0;i<3;i++)
 {
@@ -312,6 +419,7 @@ for(i=0;i<3;i++)
  }
  void V()
  {
+  int i;
   //V的摩斯密码
 for(i=0;i<4;i++)
 {
@@ -327,6 +435,7 @@ for(i=0;i<4;i++)
  }
  void W()
  {
+  int i;
   //W的摩斯密码
 for(i=0;i<3;i++)
 {
@@ -342,6 +451,7 @@ for(i=0;i<3;i++)
  }
  void X()
  {
+  int i;
   //X的摩斯密码
 for(i=0;i<4;i++)
 {
@@ -357,6 +467,7 @@ for(i=0;i<4;i++)
  }
 void Y()
 {
+  int i;
   //Y的摩斯密码
   for(i=0;i<4;i++)
    {
@@ -371,7 +482,8 @@ void Y()
   }
 }
 void Z()
- {
+{
+  int i;
   for(i=0;i<3;i++)
   {
     if(i==2)
@@ -384,4 +496,3 @@ void Z()
     }
   }
 }
-
